@@ -1,10 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Library from './week03/Library';
-import Clock from './week04/Clock';
-import Hello from './week04/Hello';
-import Welcome from './week05/Welcome'
-import CommentList from './week05/CommentList';
 
 function App() {
   return (
@@ -23,14 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <Library />
-      <Clock />
-      <Hello />
-      <Welcome name = "홍길동"/>
-      <Welcome name = "강감찬"/>
-      <Welcome name = "이순신"/>
-      <Welcome name = "최상현"/>
-      <CommentList />
     </div>
   );
 }
