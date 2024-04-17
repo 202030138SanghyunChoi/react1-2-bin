@@ -36,7 +36,9 @@ class NotificationList extends React.Component {
                 this.setState({
                     notifications: notifications,
                 });
-            } else {
+            }
+            // 메시지가 다 나오면 초기화(클리어)
+            else {
                 this.setState({
                     notifications: [],
                 });
@@ -57,6 +59,7 @@ class NotificationList extends React.Component {
                 {this.state.notifications.map((notification) => {
                     return (
                         <Notification
+                            //key props. 데이터베이스 키값
                             key={notification.id}
                             id={notification.id}
                             message={notification.message}

@@ -8,6 +8,11 @@ import CommentList from './week05/CommentList';
 import NotificationList from './week05/NotificationList';
 import Notification from './week05/Notification';
 import { StrictMode } from 'react';
+import Counter from './week06/Counter';
+import CounterUseEffect from './week06/CounterUseEffect';
+import UserStatus from './week06/UserStatus';
+import FocusButton from './week06/FocusButton';
+import MeasureExample from './week06/MeasureExample';
 
 function App() {
   return (
@@ -26,6 +31,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NotificationList/>
       <Library/>
       <Clock/>
       <Hello/>
@@ -34,7 +40,11 @@ function App() {
       <Welcome name = "이순신"/>
       <Welcome name = "최상현"/>
       <CommentList/>
-      <NotificationList/>
+      <Counter/>
+      <CounterUseEffect/>
+      <UserStatus/>
+      <FocusButton/>
+      <MeasureExample/>
     </div>
   );
 }
