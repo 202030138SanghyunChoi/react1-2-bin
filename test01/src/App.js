@@ -8,11 +8,11 @@ import CommentList from './week05/CommentList';
 import NotificationList from './week05/NotificationList';
 import Notification from './week05/Notification';
 import { StrictMode } from 'react';
-import Counter from './week06/Counter';
-import CounterUseEffect from './week06/CounterUseEffect';
-import UserStatus from './week06/UserStatus';
-import FocusButton from './week06/FocusButton';
-import MeasureExample from './week06/MeasureExample';
+import Counter from './week07/Counter';
+import CounterUseEffect from './week07/CounterUseEffect';
+import UserStatus from './week07/UserStatus';
+import FocusButton from './week07/FocusButton';
+import MeasureExample from './week07/MeasureExample';
 
 function App() {
   return (
