@@ -10,13 +10,15 @@ export default function Clock(props) {
 }
 
 /*
-    index.js에서 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(
+    index.js에서
+
+    setInterval(() => {
+      root.render(
       <React.StrictMode>
-        <App />
-        <Book />
-        <Library />
+       <Clock />
       </React.StrictMode>
-    );
+      );
+    })
+
+    으로 설정해야함.
 */
