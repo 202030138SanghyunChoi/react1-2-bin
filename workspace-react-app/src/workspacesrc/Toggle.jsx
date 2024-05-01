@@ -4,8 +4,11 @@ export default function Toggle(props) {
     const [ isToggleOn, setToggle ] = useState(true);
 
     return (
-        <button onClick={setToggle(isToggleOn ? false : true)}>
-            토글
-        </button>
+        <div>
+            <button onClick={() => setToggle(isToggleOn ? false : true)}>
+                토글
+            </button>
+            {isToggleOn ? <p>ON</p> : <p>OFF</p>}
+        </div>
     )
 }
