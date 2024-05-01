@@ -8,6 +8,8 @@ import Clock from './workspacesrc/Clock';
 import CommentList from './workspacesrc/CommentList';
 import NotificationList from './workspacesrc/NotificationList';
 import Accomodate from './workspacesrc/Accommodate';
+import UserStatus from './workspacesrc/UserStatus';
+import Toggle from './workspacesrc/Toggle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +20,7 @@ root.render(
     <CommentList />
     <NotificationList />
     <Accomodate />
+    <Toggle />
   </React.StrictMode>
 );
 
