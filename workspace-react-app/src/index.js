@@ -13,6 +13,7 @@ import Toggle from './workspacesrc/Toggle';
 import MyButton from './workspacesrc/MyButton';
 import LoginControl from './workspacesrc/LoginControl';
 import MainPage from './workspacesrc/MainPage';
+import LandingPage from './workspacesrc/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
     <MyButton />
     <LoginControl />
     <MainPage />
+    <LandingPage />
   </React.StrictMode>
 );
 
