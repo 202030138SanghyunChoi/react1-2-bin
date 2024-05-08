@@ -10,6 +10,9 @@ import NotificationList from './workspacesrc/NotificationList';
 import Accomodate from './workspacesrc/Accommodate';
 import UserStatus from './workspacesrc/UserStatus';
 import Toggle from './workspacesrc/Toggle';
+import MyButton from './workspacesrc/MyButton';
+import LoginControl from './workspacesrc/LoginControl';
+import MainPage from './workspacesrc/MainPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +24,9 @@ root.render(
     <NotificationList />
     <Accomodate />
     <Toggle />
+    <MyButton />
+    <LoginControl />
+    <MainPage />
   </React.StrictMode>
 );
 
