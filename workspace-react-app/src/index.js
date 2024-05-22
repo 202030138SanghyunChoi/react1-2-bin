@@ -14,6 +14,11 @@ import MyButton from './workspacesrc/MyButton';
 import LoginControl from './workspacesrc/LoginControl';
 import MainPage from './workspacesrc/MainPage';
 import LandingPage from './workspacesrc/LandingPage';
+import NumberList from './workspacesrc/NumberList';
+import AttendanceBook from './workspacesrc/AttendanceBook';
+import NameForm from './workspacesrc/NameForm';
+import RequestForm from './workspacesrc/RequestForm';
+import FruitSelect from './workspacesrc/FruitSelect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +34,11 @@ root.render(
     <LoginControl />
     <MainPage />
     <LandingPage />
+    <NumberList />
+    <AttendanceBook />
+    <NameForm />
+    <RequestForm />
+    <FruitSelect />
   </React.StrictMode>
 );
 
