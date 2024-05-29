@@ -19,6 +19,8 @@ import AttendanceBook from './workspacesrc/AttendanceBook';
 import NameForm from './workspacesrc/NameForm';
 import RequestForm from './workspacesrc/RequestForm';
 import FruitSelect from './workspacesrc/FruitSelect';
+import SignUp from './workspacesrc/SignUp';
+import Calculator from './workspacesrc/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,6 +41,8 @@ root.render(
     <NameForm />
     <RequestForm />
     <FruitSelect />
+    <SignUp />
+    <Calculator />
   </React.StrictMode>
 );
 
