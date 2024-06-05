@@ -21,6 +21,8 @@ import RequestForm from './workspacesrc/RequestForm';
 import FruitSelect from './workspacesrc/FruitSelect';
 import SignUp from './workspacesrc/SignUp';
 import Calculator from './workspacesrc/Calculator';
+import WelcomeDialog from './workspacesrc/WelcomeDialog';
+import TestApp from './workspacesrc/SplitPane';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -43,6 +45,8 @@ root.render(
     <FruitSelect />
     <SignUp />
     <Calculator />
+    <WelcomeDialog />
+    <TestApp />
   </React.StrictMode>
 );
 
