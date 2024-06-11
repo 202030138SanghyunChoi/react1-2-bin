@@ -8,7 +8,6 @@ import Clock from './workspacesrc/Clock';
 import CommentList from './workspacesrc/CommentList';
 import NotificationList from './workspacesrc/NotificationList';
 import Accomodate from './workspacesrc/Accommodate';
-import UserStatus from './workspacesrc/UserStatus';
 import Toggle from './workspacesrc/Toggle';
 import MyButton from './workspacesrc/MyButton';
 import LoginControl from './workspacesrc/LoginControl';
@@ -23,6 +22,10 @@ import SignUp from './workspacesrc/SignUp';
 import Calculator from './workspacesrc/Calculator';
 import WelcomeDialog from './workspacesrc/WelcomeDialog';
 import TestApp from './workspacesrc/SplitPane';
+import SignUpDialog from './workspacesrc/SignUpDialog';
+import ProfileCard from './workspacesrc/ProfileCard';
+import ContextApp from './workspacesrc/ContextApp';
+import DarkOrLight from './workspacesrc/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -47,6 +50,10 @@ root.render(
     <Calculator />
     <WelcomeDialog />
     <TestApp />
+    <SignUpDialog/>
+    <ProfileCard />
+    <ContextApp />
+    <DarkOrLight />
   </React.StrictMode>
 );
 

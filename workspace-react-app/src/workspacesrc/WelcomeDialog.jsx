@@ -1,5 +1,4 @@
-import Dialog from "./Dialog";
-import FancyBorder from "./FancyBorder";
+import Dialog from "./SignUpDialog";
 
 export default function WelcomeDialog() {
     return (
