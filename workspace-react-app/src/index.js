@@ -8,7 +8,7 @@ import Clock from './workspacesrc/Clock';
 import CommentList from './workspacesrc/CommentList';
 import NotificationList from './workspacesrc/NotificationList';
 import Accomodate from './workspacesrc/Accommodate';
-import Toggle from './workspacesrc/Toggle';
+import Toggle from './finalterm/Toggle';
 import MyButton from './workspacesrc/MyButton';
 import LoginControl from './workspacesrc/LoginControl';
 import MainPage from './workspacesrc/MainPage';
@@ -26,6 +26,7 @@ import SignUpDialog from './workspacesrc/SignUpDialog';
 import ProfileCard from './workspacesrc/ProfileCard';
 import ContextApp from './workspacesrc/ContextApp';
 import DarkOrLight from './workspacesrc/DarkOrLight';
+import StyleMainPage from './workspacesrc/StyleMainPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -54,6 +55,7 @@ root.render(
     <ProfileCard />
     <ContextApp />
     <DarkOrLight />
+    <StyleMainPage />
   </React.StrictMode>
 );
 

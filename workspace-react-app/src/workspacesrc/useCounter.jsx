@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // useCounter(커스텀 훅)를 생성하여 카운트, 증가, 감소 관리(initialValue로 초기값 사용)
 export default function useCounter(initialValue) {
