@@ -3,11 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Toggle from './finalterm/Toggle';
+import MyButton from './finalterm/MyButton';
+import LoginControl from './finalterm/LoginControl';
+import Counter from './finalterm/Counter';
+import InLineLoginControl from './finalterm/InLineLoginControl';
+import MainPage from './finalterm/MainPage';
+import NumberList from './finalterm/NumberList';
+import NameForm from './finalterm/NameForm';
+import RequestForm from './finalterm/RequestForm';
+import FruitSelect from './finalterm/FruitSelect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Toggle />
+    <MyButton />
+    <LoginControl />
+    <Counter />
+    <InLineLoginControl />
+    <MainPage />
+    <NumberList />
+    <NameForm />
+    <RequestForm />
+    <FruitSelect />
   </React.StrictMode>
 );
 
